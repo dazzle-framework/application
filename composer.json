@@ -47,7 +47,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Dazzle\\Test\\Application\\": "test/"
+            "Dazzle\\Test\\Application\\": "tests/"
         }
     },
     "minimum-stability": "dev",
