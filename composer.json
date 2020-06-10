@@ -1,5 +1,5 @@
 {
-    "name": "dazzle-framework/application",
+    "name": "dazzle/application",
     "type": "library",
     "description": "Dazzle Framework Application Package",
     "keywords": ["dazzle", "framework", "application"],
@@ -7,37 +7,37 @@
     "license": "GPL-3.0-or-later",
     "require": {
         "php": "^7.2.5",
-        "dazzle-framework/event": "^2.0",
-        "dazzle-framework/registry": "^1.4.5|^2.0",
+        "dazzle/event": "^2.0",
+        "dazzle/registry": "^1.4.5|^2.0",
         "laminas/laminas-diactoros": "^2.2.2",
         "psr/log": "^1.0",
         "psr/http-message": "^1.0"
     },
     "require-dev": {
-        "dazzlesoftware/coding-standards": "^2.0@alpha",
-        "dazzle-framework/controller": "^1.0|^2.0",
-        "dazzle-framework/di": "^1.5|^2.0",
-        "dazzle-framework/input": "^1.2|^2.0",
-        "dazzle-framework/router": "^2.0",
-        "dazzle-framework/session": "^2.0",
-        "dazzle-framework/test": "^2.0",
-        "dazzle-framework/uri": "^1.1|^2.0",
+        "dazzlesoftware/dazzle-coding-standard": "^1.0",
+        "dazzle/controller": "^1.0|^2.0",
+        "dazzle/di": "^1.5|^2.0",
+        "dazzle/input": "^1.2|^2.0",
+        "dazzle/router": "^2.0",
+        "dazzle/session": "^2.0",
+        "dazzle/test": "^2.0",
+        "dazzle/uri": "^1.1|^2.0",
         "phpunit/phpunit": "^8.5|^9.0",
         "symfony/phpunit-bridge": "^3.4|^4.4|^5.0"
     },
     "conflict": {
-        "dazzle-framework/di": "<1.5",
-        "dazzle-framework/input": "<1.2",
-        "dazzle-framework/router": "<2.0",
-        "dazzle-framework/session": "<2.0",
-        "dazzle-framework/uri": "<1.1"
+        "dazzle/di": "<1.5",
+        "dazzle/input": "<1.2",
+        "dazzle/router": "<2.0",
+        "dazzle/session": "<2.0",
+        "dazzle/uri": "<1.1"
     },
     "suggest": {
-        "dazzle-framework/controller": "^1.0|^2.0 To support resolving ControllerInterface objects in ControllerResolverInterface, install dazzle-framework/controller",
-        "dazzle-framework/input": "^1.2|^2.0 To use WebApplicationInterface, install dazzle-framework/input",
-        "dazzle-framework/router": "^2.0 To use WebApplication or ControllerResolverInterface implementations, install dazzle-framework/router",
-        "dazzle-framework/session": "^2.0 To use SessionAwareWebApplicationInterface, install dazzle-framework/session",
-        "dazzle-framework/uri": "^1.1|^2.0 To use AbstractWebApplication, install dazzle-framework/uri",
+        "dazzle/controller": "^1.0|^2.0 To support resolving ControllerInterface objects in ControllerResolverInterface, install dazzle/controller",
+        "dazzle/input": "^1.2|^2.0 To use WebApplicationInterface, install dazzle/input",
+        "dazzle/router": "^2.0 To use WebApplication or ControllerResolverInterface implementations, install dazzle/router",
+        "dazzle/session": "^2.0 To use SessionAwareWebApplicationInterface, install dazzle/session",
+        "dazzle/uri": "^1.1|^2.0 To use AbstractWebApplication, install dazzle/uri",
         "psr/container": "^1.0 To use the ContainerControllerResolver, install any PSR-11 compatible container"
     },
     "autoload": {
@@ -47,7 +47,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Dazzle\\Application\\": "test/"
+            "Dazzle\\Test\\Application\\": "test/"
         }
     },
     "minimum-stability": "dev",
