@@ -7,37 +7,30 @@
     "license": "GPL-3.0-or-later",
     "require": {
         "php": "^7.2.5",
-        "dazzlesoftware/event": "^2.0",
-        "dazzlesoftware/registry": "^1.4.5|^2.0",
+        "dazzlesoftware/event": "^1.0",
+        "dazzlesoftware/registry": "^1.0",
         "laminas/laminas-diactoros": "^2.2.2",
         "psr/log": "^1.0",
         "psr/http-message": "^1.0"
     },
     "require-dev": {
         "dazzlesoftware/dazzle-coding-standard": "^1.0",
-        "dazzlesoftware/controller": "^1.0|^2.0",
-        "dazzlesoftware/di": "^1.5|^2.0",
-        "dazzlesoftware/input": "^1.2|^2.0",
-        "dazzlesoftware/router": "^2.0",
-        "dazzlesoftware/session": "^2.0",
-        "dazzlesoftware/test": "^2.0",
-        "dazzlesoftware/uri": "^1.1|^2.0",
+        "dazzlesoftware/controller": "^1.0",
+        "dazzlesoftware/di": "^1.0",
+        "dazzlesoftware/input": "^1.0",
+        "dazzlesoftware/router": "^1.0",
+        "dazzlesoftware/session": "^1.0",
+        "dazzlesoftware/test": "^1.0",
+        "dazzlesoftware/uri": "^1.0",
         "phpunit/phpunit": "^8.5|^9.0",
         "symfony/phpunit-bridge": "^3.4|^4.4|^5.0"
     },
-    "conflict": {
-        "dazzlesoftware/di": "<1.5",
-        "dazzlesoftware/input": "<1.2",
-        "dazzlesoftware/router": "<2.0",
-        "dazzlesoftware/session": "<2.0",
-        "dazzlesoftware/uri": "<1.1"
-    },
     "suggest": {
-        "dazzlesoftware/controller": "^1.0|^2.0 To support resolving ControllerInterface objects in ControllerResolverInterface, install dazzlesoftware/controller",
-        "dazzlesoftware/input": "^1.2|^2.0 To use WebApplicationInterface, install dazzlesoftware/input",
-        "dazzlesoftware/router": "^2.0 To use WebApplication or ControllerResolverInterface implementations, install dazzlesoftware/router",
-        "dazzlesoftware/session": "^2.0 To use SessionAwareWebApplicationInterface, install dazzlesoftware/session",
-        "dazzlesoftware/uri": "^1.1|^2.0 To use AbstractWebApplication, install dazzlesoftware/uri",
+        "dazzlesoftware/controller": "^1.0 To support resolving ControllerInterface objects in ControllerResolverInterface, install dazzlesoftware/controller",
+        "dazzlesoftware/input": "^1.0 To use WebApplicationInterface, install dazzlesoftware/input",
+        "dazzlesoftware/router": "^1.0 To use WebApplication or ControllerResolverInterface implementations, install dazzlesoftware/router",
+        "dazzlesoftware/session": "^1.0 To use SessionAwareWebApplicationInterface, install dazzlesoftware/session",
+        "dazzlesoftware/uri": "^1.0 To use AbstractWebApplication, install dazzlesoftware/uri",
         "psr/container": "^1.0 To use the ContainerControllerResolver, install any PSR-11 compatible container"
     },
     "autoload": {
@@ -47,7 +40,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Dazzle\\Test\\Application\\": "tests/"
+            "Dazzle\\Application\\UnitTests\\": "tests/"
         }
     },
     "minimum-stability": "dev",
