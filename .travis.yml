@@ -5,6 +5,7 @@ dist: trusty
 env:
   global:
     - RUN_PHPCS="no"
+    - RUN_PHPUNIT="yes"
     - COMPOSER_FLAGS="--prefer-stable"
 
 matrix:

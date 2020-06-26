@@ -6,7 +6,7 @@
     "homepage": "https://github.com/dazzle-framework/application",
     "license": "GPL-3.0-or-later",
     "require": {
-        "php": "^7.2.5",
+        "php": "^7.3.0",
         "dazzlesoftware/event": "^1.0",
         "dazzlesoftware/registry": "^1.0",
         "laminas/laminas-diactoros": "^2.2.2",
@@ -22,7 +22,7 @@
         "dazzlesoftware/session": "^1.0",
         "dazzlesoftware/test": "^1.0",
         "dazzlesoftware/uri": "^1.0",
-        "phpunit/phpunit": "^8.5|^9.0",
+        "phpunit/phpunit": "^9.0",
         "symfony/phpunit-bridge": "^3.4|^4.4|^5.0"
     },
     "suggest": {
